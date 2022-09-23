@@ -2,8 +2,7 @@
 Driver for accelerometer ADXL355Z
 
 # How to use
-
-###### Step 1
+## Step 1
 Implemetation SPI read write reg
 
 ```c
@@ -18,7 +17,7 @@ void bsp_adxl355_spi_write(const uint8_t reg, uint8_t *const value, const uint16
 }
 ```
 
-###### Step 2
+## Step 2
 Create ADXL355Z handle
 ```c
 const adxl355_t adxl_355z_handle =
@@ -28,7 +27,7 @@ const adxl355_t adxl_355z_handle =
 };
 ```
 
-###### Step 2
+## Step 2
 Use driver functions
 
 ```c
